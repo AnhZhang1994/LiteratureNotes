@@ -119,6 +119,7 @@ For each $W_{t=i}$, we extract the cosine similarity between two terms and then 
 **Finding:** With time going, more similarity between "Chinese" and "Virus","Chink"
 
 ```Cosine similarities between various terms over time.```
+
 ![Cosine similarities between various terms over time.](https://dl.acm.org/cms/attachment/55aceada-3960-4457-8808-e2351ef815e4/www21-239-fig10.jpg)
 
 ## Conclusion
