@@ -61,7 +61,7 @@ Slur pick: "chink,” “bugland,” “chankoro,” “chinazi,” “gook,” 
 
 ```Top 20 most similar words, along with their cosine similarities, to the words “china,” “chinese,” and “virus” obtained from the word2vec models trained for the whole period (November 2019 - March 2020).```
 
-![Top 20 most similar words, along with their cosine similarities, to the words “china,” “chinese,” and “virus” obtained from the word2vec models trained for the whole period (November 2019 - March 2020).](image/4chantwitterwrod2vec.png)
+![Top 20 most similar words, along with their cosine similarities, to the words “china,” “chinese,” and “virus” obtained from the word2vec models trained for the whole period (November 2019 - March 2020).](https://github.com/AnhZhang1994/LiteratureNotes/blob/main/image/4chantwitterwrod2vec.png?raw=true)
 
 #### Takeaway of Temporal Analysis
 1. 4chan and Twitter are heavily discussing China in relation to COVID-19, and that this discussion accelerated rapidly once the Western world became affected.
