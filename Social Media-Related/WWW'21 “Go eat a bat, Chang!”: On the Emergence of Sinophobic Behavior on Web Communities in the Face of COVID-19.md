@@ -1,5 +1,5 @@
 # [“Go eat a bat, Chang!”: On the Emergence of Sinophobic Behavior on Web Communities in the Face of COVID-19](https://dl.acm.org/doi/10.1145/3442381.3450024)
-
+**Conference:** WWW 2021
 **Keywords:** COVID-19, Sinophobia, Hate Speech, Twitter, 4chan
 
 
@@ -70,3 +70,58 @@ Slur pick: "chink,” “bugland,” “chankoro,” “chinazi,” “gook,” 
 ## Content Analysis
 Technique: word2vec (skip-gram)
 Method: 3 groups of word2vec models for each of Twitter and /pol/:
+&ensp; Group1: $W_a$ trained on all posts made during the period between October 28, 2019 and March 22, 2020 to study the use of words for the entire duration of our study.
+&ensp; Group2: One distinct word2vec model for each week between October 28, 2019 and March 22, 2020, $W_{t=i}$, i∈T (i is the ith week in T). To study changes in the use of words over time.
+&ensp;  Group3: $W_c$ trained on all posts (July 1, 2016 to November 1, 2019) to investigate the emergence of new terms during the period of our study
+
+Result:
+```Visualization of a 2-hop graph from the word “chinese” on 4chan's /pol/ and Twitter.```
+![Visualization of a 2-hop graph from the word “chinese” on 4chan's /pol/.](https://dl.acm.org/cms/attachment/1a9a4141-187a-4471-9c66-d6835cf24361/www21-239-fig5.jpg)
+![Visualization of a 2-hop graph from the word “chinese” on Twitter](https://dl.acm.org/cms/attachment/95f4558e-3148-4ecc-8733-a2705eb02bf1/www21-239-fig6.jpg)
+
+2 categories of profanities:
+1. Insults addressing Asian people:
+Racist variations of “china” and “chinese" (e.g. chingchong)
+Culturally oriented racist terms (e.g. ricenigger, yellownigger)
+2. Sexual stereotypes (e.g., pindick)
+
+## Content Evolution
+### 4chan pol
+```Top 20 most similar words, along with their cosine similarities, to the words “china,” “chinese,” and “virus” for the first and last trained word2vec models from 4chan's /pol/.```
+![Top 20 most similar words, along with their cosine similarities, to the words “china,” “chinese,” and “virus” for the first and last trained word2vec models from 4chan's /pol/.](https://github.com/AnhZhang1994/LiteratureNotes/blob/main/image/Top20mostsimilarwords.png?raw=true)
+
+
+```Visualization of a 2-hop graph from the word “chinese” on 4chan's /pol/ using the first and last weekly word2vec models.```
+![Visualization of a 2-hop graph from the word “chinese” on 4chan's /pol/ using the first and last weekly word2vec models.](https://dl.acm.org/cms/attachment/a99b6ec3-43a7-43a4-84d8-2e3493478185/www21-239-fig7.jpg)
+
+1. 4chan's /pol/ users typically use racial slurs targeted to Chinese people even before the outbreak of the COVID-19 pandemic.
+2. A rise in the use of this term in discussions related to China.
+3. Slurs used against Chinese people increased.
+
+**New Term Discovery**
+Compare $W_{t=i}$ and $W_c$, filter out cosine similarity below 0.5's terms.
+```Visualization of the emergence of new words related to “chinese” over time on 4chan's /pol/.```
+![Visualization of the emergence of new words related to “chinese” over time on 4chan's /pol/.](https://dl.acm.org/cms/attachment/03bda2c6-3c2e-45b3-bfbe-f5367c09c246/www21-239-fig8.jpg)
+
+
+### Twitter
+```Top 20 most similar words, along with their cosine similarities, to the words “china,” “chinese,” and “virus” for the first and last trained word2vec models on Twitter.```
+![Top 20 most similar words, along with their cosine similarities, to the words “china,” “chinese,” and “virus” for the first and last trained word2vec models on Twitter.](https://github.com/AnhZhang1994/LiteratureNotes/blob/main/image/top20twitter.png?raw=true)
+```Visualization of the emergence of new words related to “chinese” over time on Twitter.```
+![Visualization of the emergence of new words related to “chinese” over time on Twitter.](https://dl.acm.org/cms/attachment/2e362ebb-5c75-4a1d-bcba-28d47ce4eeb1/www21-239-fig9.jpg)
+
+**New Term Discovery**
+During important real-world events, such as the COVID-19 pandemic, language evolves and new terms emerge on Web communities like Twitter.
+
+### Semantic Changes between Words
+
+For each $W_{t=i}$, we extract the cosine similarity between two terms and then we plot their similarities over time.
+**Finding:** With time going, more similarity between "Chinese" and "Virus","Chink"
+
+```Cosine similarities between various terms over time.```
+![Cosine similarities between various terms over time.](https://dl.acm.org/cms/attachment/55aceada-3960-4457-8808-e2351ef815e4/www21-239-fig10.jpg)
+
+## Conclusion
+1. The paper aims to understand Sinophobic language related to COVID-19 on the social web.
+2. The study collects data from 4chan's /pol/ and Twitter over five months, with word embedding, revealing a rise in Sinophobic content which is a crossplatform phenomenon on fringe web communities and mainstream platforms.
+3. Sinophobic behavior evolves quickly and substantially, especially after world changing events like the COVID-19 pandemic.
