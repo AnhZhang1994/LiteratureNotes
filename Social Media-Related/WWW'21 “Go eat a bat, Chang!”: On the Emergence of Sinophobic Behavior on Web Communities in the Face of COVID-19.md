@@ -2,6 +2,19 @@
 **Conference:** WWW 2021
 **Keywords:** COVID-19, Sinophobia, Hate Speech, Twitter, 4chan
 
+## My notes
+### Summary
+Collect 5 month post data from 2 online communities (4chan /pol/ and Twitter), measure the trends of Sinophobic, and investigate new terms with word2vec.
+**Related Technique:** crawler/scrapper, word2vec, similarity calculation
+
+### Pros
+1. Hot topic from special perspectives (hatespeech and conspiracy theories) target to sinophobic
+2. Nice intuitive visualization
+2. Comperehensive investigation with NLP technique (word2vec)
+
+### Cons
+1. Some statements are subjective inferences without groundtruths. Some slurs target to Asians insted of Chinese only (e.g. zipperhead, ricenigger)
+
 
 ## Abstract
 Target to the spread of COVID-19, to keep social distance, online medium became more active, but with spreading potentially harmful and disturbing content (e.g.  conspiracy theories and hateful speech).
