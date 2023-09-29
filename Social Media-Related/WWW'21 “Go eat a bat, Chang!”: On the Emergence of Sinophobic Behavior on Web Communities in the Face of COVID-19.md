@@ -6,7 +6,7 @@
 ### Summary
 Collect 5 month post data from 2 online communities (4chan /pol/ and Twitter), measure the trends of Sinophobic, and investigate new terms with word2vec.
 
-**Related Technique:** crawler/scrapper, word2vec, similarity calculation
+**Related Technique:** crawler/scrapper, word2vec, similarity calculation, data vosualization
 
 ### Pros
 1. Hot topic from special perspectives (hatespeech and conspiracy theories) target to sinophobic
