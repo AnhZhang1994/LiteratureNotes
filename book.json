@@ -1,0 +1,73 @@
+
+
+{
+  "title": "Lu's paper reading notes",
+  "author": "Lu Zhang",
+  "description": "Lu's miscellaneous notes",
+  "language": "EN",
+  "styles": {
+    "website": "./public-repertory/css/gitbook-configure.css"
+  },
+  "plugins": [
+    "mygitalk",
+    "theme-comscore",
+    "prism",
+    "-highlight",
+    "copy-code-button",
+    "search-pro",
+    "-search",
+    "-lunr",
+    "expandable-chapters",
+    "splitter",
+    "-sharing",
+    "github-buttons",
+    "donate",
+    "tbfed-pagefooter",
+    "baidu-tongji",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+
+    "mygitalk": { 
+    "clientID": "29486f79193fd4e66539", 
+    "clientSecret": "1f80b78f704598c16b97a839b0f71ed4e1efccaf", 
+    "repo": "https://github.com/AnhZhang1994/LiteratureNotes", 
+    "owner": "anhzhang1994", 
+    "admin": ["anhzhang1994"], 
+    "distractionFreeMode": false } } ,
+
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "anhzhang1994",
+          "repo": "https://github.com/AnhZhang1994/LiteratureNotes", 
+          "type": "star",
+          "count": true,
+          "size": "small"
+        }, 
+        {
+          "user": "Lu",
+          "width": "160", 
+          "type": "follow", 
+          "count": true,
+          "size": "small"
+        }
+      ]
+    },
+    
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ],
+      "lang": {
+        "shell": "bash"
+      }
+    },
+
+    "anchor-navigation-ex": {
+      "showLevel": false
+    }
+  }
+
+
+
