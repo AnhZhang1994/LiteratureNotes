@@ -1,4 +1,5 @@
-# [“Go eat a bat, Chang!”: On the Emergence of Sinophobic Behavior on Web Communities in the Face of COVID-19](https://dl.acm.org/doi/10.1145/3442381.3450024)
+# “Go eat a bat, Chang!”: On the Emergence of Sinophobic Behavior on Web Communities in the Face of COVID-19
+[link](https://dl.acm.org/doi/10.1145/3442381.3450024)
 **Conference:** WWW 2021
 **Keywords:** COVID-19, Sinophobia, Hate Speech, Twitter, 4chan
 **Link:** https://ieeexplore.ieee.org/document/9340540
