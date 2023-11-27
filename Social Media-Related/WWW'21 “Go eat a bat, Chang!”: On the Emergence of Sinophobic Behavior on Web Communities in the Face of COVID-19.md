@@ -6,18 +6,20 @@
 ### Summary
 Collect 5 month post data from 2 online communities (4chan /pol/ and Twitter), measure the trends of Sinophobic, and investigate new terms with word2vec.
 
-**Related Technique:** crawler/scrapper, word2vec, similarity calculation, data vosualization
+**Related Technique:** crawler/scrapper, word2vec, similarity calculation, data visualization
 
 ### Pros
 1. Hot topic from special perspectives (hatespeech and conspiracy theories) target to sinophobic
 2. Nice intuitive visualization
-2. Comperehensive investigation with NLP technique (word2vec)
+3. Comperehensive investigation with NLP technique (word2vec)
 
 ### Cons
 1. Some statements are subjective inferences without groundtruths. Some slurs target to Asians insted of Chinese only (e.g. zipperhead, ricenigger)
+2. Didn't explain pros of techniques they adopted
 
 
-## Abstract
+## Details
+### Abstract
 Target to the spread of COVID-19, to keep social distance, online medium became more active, but with spreading potentially harmful and disturbing content (e.g.  conspiracy theories and hateful speech).
 
 We collected and analyzed 2 larrge datasets from Twitter and 4chan (time period: 5 months) to investigate whether there is a rise or important differences with regard to the dissemination of Sinophobic content. 
@@ -136,7 +138,7 @@ For each $W_{t=i}$, we extract the cosine similarity between two terms and then 
 
 ![Cosine similarities between various terms over time.](https://dl.acm.org/cms/attachment/55aceada-3960-4457-8808-e2351ef815e4/www21-239-fig10.jpg)
 
-## Conclusion
+### Conclusion
 1. The paper aims to understand Sinophobic language related to COVID-19 on the social web.
 2. The study collects data from 4chan's /pol/ and Twitter over five months, with word embedding, revealing a rise in Sinophobic content which is a crossplatform phenomenon on fringe web communities and mainstream platforms.
 3. Sinophobic behavior evolves quickly and substantially, especially after world changing events like the COVID-19 pandemic.
