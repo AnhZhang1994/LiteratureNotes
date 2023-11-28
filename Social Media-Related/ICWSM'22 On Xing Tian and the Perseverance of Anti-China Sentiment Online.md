@@ -1,7 +1,11 @@
 # [On Xing Tian and the Perseverance of Anti-China Sentiment Online](https://publications.cispa.saarland/3641/)
+
+
+**Link:** https://publications.cispa.saarland/3641/
+
+
 **Conference:** ICWSM 2022
 **Keywords:** Sinophobia, Hate Speech, Social Media, NLP
-**Link:** https://publications.cispa.saarland/3641/
 
 ## My notes
 ### Summary
