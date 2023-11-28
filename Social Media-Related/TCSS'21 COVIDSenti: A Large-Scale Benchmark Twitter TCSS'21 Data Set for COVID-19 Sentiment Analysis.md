@@ -18,6 +18,7 @@ This paper proposed a Twitter sentiment dataset, makes tweet sentiment classifie
 
 ### Cons
 1. Technical parts are not detailed and confusing. Not convicing either.
+2. The method of semantic classification for dividing the data into pos/neg/neutural is not convicing
 
 
 ## Details
