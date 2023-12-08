@@ -4,7 +4,7 @@
 **Link:** [https://scholar.google.com/citations?view_op=view_citation&hl=en&user=sV43f5AAAAAJ&sortby=pubdate&citation_for_view=sV43f5AAAAAJ:hFOr9nPyWt4C](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=sV43f5AAAAAJ&sortby=pubdate&citation_for_view=sV43f5AAAAAJ:hFOr9nPyWt4C)
 
 
-**Conference:** Proceedings of the ACM on Human-Computer Interaction
+**Journal:** Proceedings of the ACM on Human-Computer Interaction (PACMHCI'24)
 **Keywords:** Online Safety, Youth Online Risks, Machine Learning, Deep Learning
 
 
