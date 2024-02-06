@@ -1,4 +1,4 @@
-# Getting Meta: A Multimodal Approach for Detecting Unsafe Conversations within Instagram Direct Messages of Youth 
+# Getting Meta A Multimodal Approach for Detecting Unsafe Conversations within Instagram Direct Messages of Youth 
 
 
 **Link:** [https://dl.acm.org/doi/pdf/10.1145/3579608](https://dl.acm.org/doi/pdf/10.1145/3579608)
