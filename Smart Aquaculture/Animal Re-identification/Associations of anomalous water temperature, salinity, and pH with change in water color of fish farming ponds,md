@@ -1,0 +1,18 @@
+# [Associations of anomalous water temperature, salinity, and pH with change in water color of fish farming ponds](https://onlinelibrary.wiley.com/doi/full/10.1111/jwas.12991)
+
+journal: J. World Aquacult. Soc. (Q1)
+
+## Abstract
+
+
+## Method  
+sparse auto-encoder (SAE) and LSTM
+0. missing values were imputed using linear interpolation
+1. Anomaly detection using SAE
+Divid data ijnto
+
+# Data 
+
+multivariate time series data included six kinds of observations, that is, water temperature, salinity, pH, temperature, air pressure, and rainfall, while univariate data considered only one kind of observation
+
+Data for 120 days
