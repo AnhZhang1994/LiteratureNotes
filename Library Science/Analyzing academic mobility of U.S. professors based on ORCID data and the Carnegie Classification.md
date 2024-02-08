@@ -1,4 +1,4 @@
-# TiAnalyzing academic mobility of U.S. professors based on ORCID data and the Carnegie Classificationtle
+# Analyzing academic mobility of U.S. professors based on ORCID data and the Carnegie Classificationtle
 
 
 **Link:** [https://direct.mit.edu/qss/article/1/4/1451/96122/Analyzing-academic-mobility-of-U-S-professors](https://direct.mit.edu/qss/article/1/4/1451/96122/Analyzing-academic-mobility-of-U-S-professors)
