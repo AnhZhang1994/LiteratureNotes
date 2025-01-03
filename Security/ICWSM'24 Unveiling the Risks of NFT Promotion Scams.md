@@ -1,6 +1,6 @@
 # Unveiling the Risks of NFT Promotion Scams
 
-**Link:** [Unveiling the Risks of NFT Promotion Scams](Unveiling the Risks of NFT Promotion Scams)
+**Link:** [Unveiling the Risks of NFT Promotion Scams](https://arxiv.org/pdf/2301.09806)
 
 **Conference:** ICWSM 2024
 **Keywords:** : NFT, scam, social media, blockchain
@@ -15,6 +15,7 @@
 
 ### Methodology 
 1. Promotional Tweets: sweepstake competitions by retweeting, following, and tagging friends. Draw a hype that the product is very popular.
+
  ![alt text](image.png)
 
 2. Data Collection: 439 accounts with 21.6k promotion tweets. Using regex extracting 2,831 NFT promotion tweets for 823 unique NFT projects.
