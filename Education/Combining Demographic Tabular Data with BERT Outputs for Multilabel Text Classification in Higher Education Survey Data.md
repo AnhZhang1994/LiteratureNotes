@@ -9,8 +9,7 @@
 
 ## My notes
 ### Summary
-
-**Related Technique:** 
+BERT for Multi-label Text Classification (MLTC)
 
 ### Pros
 
