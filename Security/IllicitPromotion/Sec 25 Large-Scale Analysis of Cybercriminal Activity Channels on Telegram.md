@@ -7,7 +7,7 @@
 
 **Keywords:** Cybercrime, telegram, empirical study
 
-**Open source:** < https://github.com/UTA-SPRLab/DarkGram>
+**Open source:** <https://github.com/UTA-SPRLab/DarkGram>
 
 ## Summary
 Develop DarkGram, a BERT-based framework to identify malicious posts from cybercrimial activity channels (CACs). Conduct empirical study on 339 CACs followed by over 23.8M users.
