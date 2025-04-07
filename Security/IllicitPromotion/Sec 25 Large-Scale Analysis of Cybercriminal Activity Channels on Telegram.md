@@ -1,4 +1,4 @@
-# DarkGram: A Large-Scale Analysis of Cybercriminal Activity Channels on
+# DarkGram: A Large-Scale Analysis of Cybercriminal Activity Channels on Telegram
 
 
 **Link:** <https://arxiv.org/pdf/2409.14596>
